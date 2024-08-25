@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.pexels.com/video/digital-projection-of-abstract-geometrical-lines-3129671/"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <span
+          class="material-symbols-outlined"
+          onclick="sidebaropen()"
+          id="m1"
+          style="display: inline-block"
+        >
+          menu
+        </span>
+        <li><a href="#">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Trending</a>
+          <div class="dropdown-content">
+            <a href="#">Best seller</a>
+            <a href="#">New Release</a>
+            <a href="#">Movers and Shakers</a>
+          </div></li>
+          <li class="dropdown">
+           <a href="#" class="dropbtn">Top Categories for You</a>
+           <div class="dropdown-content">
+          <a href="#">Mobiles</a>
+          <a href="#">Computers</a>
+          <a href="#">Books</a>
+          <a href="#">Latest Fashion</a>
+          <a href="#">See All Categories</a>
+          </div>
+          </li>
+        <li><a class="active" href="#home">Home</a></li>
+      </ul>
+    </div>
+
+    <div class="mainpanel">
+      <div class="sidebar" style="display:none" id="s1">
+        <span class="material-symbols-outlined" onclick="sidebarclose()">
+          close
+        </span>
+        <img src="./profile.jpg" alt="" />
+        <ul>
+          <li><a href="#">Profile</a></li>
+          <br />
+          <li><a href="./loginpage/login.html">Login</a></li>
+          <br />
+          <li><a href="#">Log Out</a></li>
+          <br />
+          
+        </ul>
+      </div>
+      <div class="container">
+        <div class="infocontainer">
+          <div class="devInfo">
+            <div class="hello">Get upto 30% of on new arrivals</div>
+            <div class="name"></div>
+            <div class="about">
+              E commerce
+            </div>
+            <div class="moreabout">
+              This is the offical page for online shopping
+            </div>
+            <div class="button">
+              <a href=shop now 
+                ><button>microphone</button></a
+              >
+              <a href="https://lens.google.com/search?p=AbrfA8rwZHmMg_r86XGf63-txkbhh5PahNfV9rs7J_j7RiZKlEWov5e_3CRxJ9YP4_Lnu83qVqKogg6r9l0RlWEvkG_7ylHgsbKkfnjrqQ%3D%3D&plm=ChAIDxIMCLH71bMGEOj%2BweICChAIGRIMCLH71bMGELCf2eICChAIGhIMCLH71bMGEOD34OIC"><button>lense</button></a>
+            </div>
+            <div class="wrap">
+                <div class="search">
+                   <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                   <button type="submit" class="searchButton">
+                    <span class="material-symbols-outlined">
+                        search
+                        </span>
+                  </button>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function sidebaropen() {
+      document.getElementById("s1").style.display = "block";
+      document.getElementById("m1").style.display = "none";
+    }
+    function sidebarclose() {
+      document.getElementById("s1").style.display = "none";
+      document.getElementById("m1").style.display = "inline-block";
+    }
+  </script>
+</html>

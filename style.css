@@ -1,0 +1,203 @@
+body{
+    background: url(https://cdn.wallpapersafari.com/4/22/3HuobU.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 1500px;
+    background-position: center;
+    /* height: 1000;width: 3000; */
+    /* background-attachment: fixed; */
+    color: antiquewhite;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+  }
+  
+ .navbar li {
+    float: right;
+  }
+  
+ .navbar li a, .dropbtn {
+    display: inline-block;
+    color: black;
+   font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  .active{
+  background-color: gray;
+  color: white;
+  }
+ .navbar li a:hover , .dropdown:hover .dropbtn{
+    background-color: rgb(255, 230, 0);
+    color: white;
+  }
+  
+ .navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(173, 227, 230);
+    min-width: 160px;
+    box-shadow: 5px 8px 10px 0px black;
+   }
+  
+ .navbar .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+ .navbar .dropdown-content a:hover {
+  background-color: gray;
+  color:white;
+  }
+  
+ .navbar .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  h1,h2,h3{
+  text-align:center; 
+  color: green;
+  }
+  
+  .sidebar{
+    height: 700px;
+    width: 250px;
+    background-color: rgb(196, 255, 237);
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+  .sidebar ul{
+    list-style-type: none;
+  margin-left: 20px;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+  /* background-color: lightblue; */
+  }
+ .sidebar li a {
+    display: block;
+    color: black;
+    font-size:20px;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .sidebar li a:hover , .dropdown:hover .dropbtn{
+    background-color: rgb(255, 170, 0);
+    color: white;
+  }
+
+  .sidebar img{
+    height: 150px;
+    margin-left: 20px;
+    border-radius: 50px;
+    margin-top: 50px;
+    width: 200px;
+    
+    
+  }
+  
+  .navbar span{
+    margin-left: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: black;
+  }
+  .sidebar span{
+    float: right;
+    cursor: pointer;
+    color: black;
+  }
+
+  .devInfo{
+    flex-direction: column;
+    display: flex;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.hello{
+    font-size: 60px;    
+
+}
+.name{
+    font-size:50px ;
+    font: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+.about{
+    font-size: 16px;
+    margin-top: 50px;
+}
+.moreabout{
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 15px;
+}
+
+.button{
+    margin: 30px;
+
+}
+.devInfo .button button{
+    padding: 10px;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 204, 0);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 20px;
+    cursor: pointer;
+ }
+
+ .devInfo .button button:hover{
+    color: rgb(255, 255, 0);
+    background-color:white ;
+ }
+ .contactform {
+    font-family: 'Fira Sans', sans-serif;   
+    padding: 40px 22px;
+}   
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid orange;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: black;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid orange;
+    background: orange;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
